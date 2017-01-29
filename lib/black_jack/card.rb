@@ -2,6 +2,7 @@ module BlackJack
   class Card
     FACES = [:king, :queen, :jack, :ace].freeze
     SUITES = [:diamond, :club, :heart, :spade].freeze
+    SUITE_SYMBOLS = ['♠', '♣','♦', '♥'].freeze
     NUMBER_VALUE_RANGE = 2..10
     attr_reader :suit, :type
 
